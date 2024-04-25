@@ -1,0 +1,66 @@
+#container{
+    border: solid 1px;
+    padding-left: 250px;
+    padding-top: 190px;
+    margin: 70px;
+    line-height: 40px;
+    margin-left: 350px;
+    border-radius: 5px;
+    background-color: #E6BFDA;
+    height: 700px;
+    width: 750px;
+    
+}
+#image{
+   
+    padding-left: 10px;
+    margin-left: 130px;
+}
+.input{
+    border: double 1px black;
+    height: 50px;
+    border-radius: 6px;
+    width: 500px;
+}
+.button{
+    color:white;
+    background-color: black;
+    border-radius: 7px;
+    width: 100px;
+   margin-left: 100px;
+}
+.option{
+
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 768px){
+    #container{
+        padding-left: 15px;
+        margin: 0px;
+        line-height: 30px;
+        border-radius: 5px;
+        height: 600px;
+        width: 220px;
+    }
+    .input{
+        border: double 1px black;
+        height: 40px;
+        border-radius: 6px;
+        width: 200px;
+    }
+    .option{
+        margin: 10px;
+    }
+    #image{
+   
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+    .button{
+    
+        border-radius: 7px;
+        width: 100px;
+       margin-left: 60px;
+    }
+}

@@ -1,0 +1,26 @@
+ body{
+    background-color: #E6BFDA;
+ }
+
+ #topnav{
+   display: flex;
+   gap: 1500px;
+ }
+
+ #midtop-nav{
+   display: flex;
+   gap: 40px;
+ }
+ 
+ #note{
+   font-size: 150px;
+   font-style: normal;
+   margin-left: 30px;
+ 
+ }
+
+ #display{
+  display: flex;
+  gap: 150px;
+ }
+ 
