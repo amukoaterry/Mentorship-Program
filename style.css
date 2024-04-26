@@ -10,9 +10,9 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -23,12 +23,12 @@ h1 {
   
   input[type="text"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 30px;
+    margin-bottom: 230px;
   }
   
   button {
-    padding: 15px 20px;
+    padding: 30px 40px;
     background-color: purple;
     color: #fff;
     border: none;
@@ -47,7 +47,7 @@ h1 {
     align-items: center;
     margin-bottom: 5px;
     color: #fff;
-    font-size: 22px;
+    font-size: 40px;
       border-bottom: 1px solid white;
     padding-bottom: 20px;
   }
@@ -55,11 +55,21 @@ h1 {
   .delete-btn {
     background-color: purple;
     color: white;
-    padding: 5px 10px;
+    padding: 25px 30px;
     border: none;
     cursor: pointer;
   }
 
-
+  #todo{
+    font-size: 80px;
+    color: white;
+  }
+  
+  #buttn{
+    background-color: #E6BFDA;
+    justify-content: center;
+    margin-left: 830px;
+    width: 200px;
+}
 
   

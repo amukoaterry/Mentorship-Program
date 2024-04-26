@@ -10,42 +10,22 @@
     <title>To Do List</title>
 </head>
 <body>
+
+    <div id="background">
+
          <div class="container">
-        <h1>To Do List</h1>
+        <h1 id="todo">To Do List</h1>
         <input type="text" id="itemInput" placeholder="Write Something">
         <button onclick="addItem()">Add</button>
         <ul id="itemList"></ul>
       </div>
 
+    </div>
 
-      <script>
-        const itemInput = document.getElementById("itemInput");
-    const itemList = document.getElementById("itemList");
-    
-    function addItem() {
-        const newItem = itemInput.value.trim();
-    
-        if (newItem !== "") {
-            const li = document.createElement("li");
-            const itemText = document.createElement("span");
-            itemText.textContent = newItem;
-            const deleteBtn = document.createElement("button");
-            deleteBtn.textContent = "Delete";
-            deleteBtn.className = "delete-btn";
-    
-            deleteBtn.addEventListener("click", () => {
-                li.remove();
-            });
-    
-            li.appendChild(itemText);
-            li.appendChild(deleteBtn);
-            itemList.appendChild(li);
-    
-            itemInput.value = "";
-        }
-    }
-    </script>
+    <button id="buttn"><a href="signup.html">signup</a></button>
 
+
+        <script src="todo.js"></script>
 
 </body>
 </html>

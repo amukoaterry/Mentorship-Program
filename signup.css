@@ -30,6 +30,8 @@
 .option{
     margin-left: 70px;
 }
+
+
 @media only screen and (max-width: 768px){
     #container{
         padding-left: 15px;
@@ -59,7 +61,6 @@
         width: 100px;
        margin-left: 60px;
     }
-   
     .option{
         margin-left: 1px;
         word-wrap: normal;

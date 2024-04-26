@@ -1,0 +1,29 @@
+body{
+    background-color: #E6BFDA;
+}
+
+#profile{
+    font-size: 25px;
+}
+
+#display{
+display: flex;
+gap: 400px;
+margin-top: 150px;
+margin-left: 50px;
+}
+
+#name{
+    margin-top: 60px;
+}
+
+#mentor{
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+#button{
+    background-color: #E6BFDA;
+    justify-content: center;
+    margin-left: 80px;
+}

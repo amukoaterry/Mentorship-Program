@@ -2,7 +2,7 @@ body{
     background-color: #E6BFDA;
 }
 
-#achievements{
+#goals{
     font-size: 50px;
     text-align: center;
     margin-top: 150px;
@@ -17,12 +17,12 @@ body{
 #button{
     background-color: #E6BFDA;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 @media only screen and (max-width: 768px){
-    #achievements{
-        font-size: 15px;
+    #goals{
+        font-size: 20px;
         text-align: center;
         margin-top: 150px;
     }
@@ -31,6 +31,6 @@ body{
         width: 200px;
         /* background-color: black; */
         border: 1px solid black;
-
     }
+    
 }

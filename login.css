@@ -34,6 +34,12 @@
     padding-left: 50px;
 }
 
+#button{
+    background-color: #E6BFDA;
+    justify-content: center;
+    margin-left: 150px;
+}
+
 @media only screen and (max-width: 768px){
     #container{
         padding-left: 15px;
@@ -41,26 +47,26 @@
         line-height: 30px;
         border-radius: 5px;
         height: 600px;
-        width: 220px;
+        width: 320px;
     }
     .input{
-        border: double 1px black;
+        border: double 1px blue;
         height: 40px;
         border-radius: 6px;
         width: 200px;
     }
     .option{
-        margin: 10px;
+        margin: 9px;
     }
     #image{
    
-        padding-left: 10px;
-        margin-left: 80px;
+        padding-left: 0px;
+        margin-left: 0px;
     }
     .button{
     
         border-radius: 7px;
         width: 100px;
-       margin-left: 60px;
+       margin-left: 0px;
     }
 }

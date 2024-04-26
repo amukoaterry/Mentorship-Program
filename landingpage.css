@@ -4,12 +4,12 @@
 
  #topnav{
    display: flex;
-   gap: 1500px;
+   gap: 1300px;
  }
 
  #midtop-nav{
    display: flex;
-   gap: 40px;
+   gap: 100px;
  }
  
  #note{
@@ -19,8 +19,54 @@
  
  }
 
+ #sign{
+  text-decoration: none;
+  font-size: 23px;
+ }
+
  #display{
   display: flex;
   gap: 150px;
+ }
+
+#img{
+  margin-top: 170px;
+}
+
+ #button{
+    background-color: #E6BFDA;
+    justify-content: center;
+    margin-left: 150px;
+}
+ 
+#icons{
+  margin-left: 100px;
+  gap: 150px;
+}
+
+
+ @media only screen and (max-width: 768px){
+  #topnav{
+    display: wrap;
+    gap: 250px;
+  }
+ 
+  #midtop-nav{
+    display: wrap;
+    gap: 70px;
+  }
+  
+  #note{
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 30px;
+  
+  }
+ 
+  #display{
+   display: wrap;
+   gap: 25px;
+  }
+ 
  }
  
