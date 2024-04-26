@@ -19,15 +19,17 @@
 .input{
     border: double 1px black;
     height: 50px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     width: 500px;
 }
 .button{
     color:white;
-    background-color: black;
-    border-radius: 7px;
-    width: 100px;
+    background-color: #E6BFDA;
+    /* border-radius: 7px; */
+    width: 150px;
    margin-left: 100px;
+   height: 60px;
+
 }
 .option{
 
@@ -38,6 +40,8 @@
     background-color: #E6BFDA;
     justify-content: center;
     margin-left: 150px;
+    height: 50px;
+    width: 70px;
 }
 
 @media only screen and (max-width: 768px){
