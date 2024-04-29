@@ -48,7 +48,7 @@
  @media only screen and (max-width: 768px){
   #topnav{
     display: wrap;
-    gap: 250px;
+    gap: 50px;
   }
  
   #midtop-nav{
