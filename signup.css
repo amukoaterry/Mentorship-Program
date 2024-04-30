@@ -4,7 +4,6 @@
     margin-top: 100px;
     line-height: 30px;
     margin-left: 370px;
-    /* border-radius: 5px; */
     background-color: #E6BFDA;
     height: 800px;
     width: 750px;
@@ -17,13 +16,11 @@
 .input{
     border: double 1px blue;
     height: 50px;
-    /* border-radius: 6px; */
     width: 500px;
 }
 .button{
     color:white;
     background-color: #E6BFDA;
-    /* border-radius: 7px; */
     width: 150px;
    margin-left: 100px;
    height: 50px;

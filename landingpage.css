@@ -18,7 +18,10 @@
    margin-left: 30px;
  
  }
-
+#together{
+  font-size: 120px;
+  margin-top: 70px;
+}
  #sign{
   text-decoration: none;
   font-size: 23px;
@@ -26,13 +29,17 @@
 
  #display{
   display: flex;
-  gap: 150px;
+  gap: 200px;
  }
 
 #img{
   margin-top: 170px;
 }
-
+#image{
+  height: 500px;
+  width: 600px;
+  margin-bottom: 220px;
+}
  #button{
     background-color: #E6BFDA;
     justify-content: center;
@@ -46,27 +53,55 @@
 
 
  @media only screen and (max-width: 768px){
-  #topnav{
-    display: wrap;
-    gap: 50px;
-  }
- 
-  #midtop-nav{
-    display: wrap;
-    gap: 70px;
-  }
   
-  #note{
-    font-size: 50px;
-    font-style: normal;
-    margin-left: 30px;
-  
-  }
+  body{
+    background-color: #E6BFDA;
+ }
+#together{
+  font-size: small;
+}
+ #topnav{
+   flex-wrap: wrap;
+   gap: 50px;
+ }
+
+ #midtop-nav{
+  flex-wrap: wrap;
+   gap: 50px;
+ }
+ #display{
+  font-size: small;
+ }
+ #note{
+   font-style: small;
+   margin-left: 30px;
  
-  #display{
-   display: wrap;
-   gap: 25px;
-  }
+ }
+
+ #sign{
+  text-decoration: none;
+  font-size: small;
+ }
+
+ #display{
+  flex-wrap: wrap;
+  gap: 50px;
+ }
+
+#img{
+  margin-top: 70px;
+}
+
+ #button{
+    background-color: #E6BFDA;
+    justify-content: center;
+    margin-left: 150px;
+}
+ 
+#icons{
+  margin-left: 100px;
+  gap: 50px;
+}
  
  }
  

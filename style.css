@@ -90,3 +90,107 @@ label a{
 }
 
   
+@media only screen and (max-width: 768px){
+
+  body {
+    background: #E6BFDA;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Geologica', sans-serif;
+  }
+  
+  .container {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+  }
+  
+  h1 {
+      color: #fff;
+      font-size: 45px;
+    }
+    
+    input[type="text"] {
+      /* width: 100%; */
+      padding: 30px;
+      margin-bottom: 50px;
+    }
+    
+    button {
+      padding: 30px 40px;
+      background-color: purple;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+   #itemInput{
+    width: 150px;
+   }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 35px;
+    }
+    
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+      color: purple;
+      font-size: 20px;
+        border-bottom: 1px solid white;
+      padding-bottom: 20px;
+    }
+    
+    .delete-btn {
+      background-color: purple;
+      color: white;
+      padding: 25px 30px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    #todo{
+      font-size: 80px;
+      color: white;
+      /* margin-bottom: 100px; */
+    }
+    
+    #buttn{
+      background-color: #E6BFDA;
+      justify-content: center;
+      margin-left: 80px;
+      /* width: 200px; */
+      border-radius: 5px;
+      border: solid 1px;
+      color: purple;
+  }
+  
+  button a{
+    text-decoration: none;
+    
+  }
+  
+  #checkbox{
+    text-align: center;
+    
+  }
+  label a{
+    text-decoration: none;
+  }
+  
+  #hr{
+    border: 1px solid white;
+  }
+
+  background {
+    height: 300px;
+  };
+
+}

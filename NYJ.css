@@ -21,9 +21,9 @@ button a{
 @media only screen and (max-width: 768px){
     #text{
         background-color: #E6BFDA;
-        height: 950px;
+        height: 1260px;
         color: black;
-        font-size: 15px;
+        font-size: 20px;
         padding: 10px;
     }
     button{

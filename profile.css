@@ -26,17 +26,18 @@ a{
 display: flex;
 gap: 400px;
 margin-top: 150px;
-margin-left: 50px;
+margin-left: 300px;
 }
 
 #name{
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 #mentor{
     margin-left: 700px;
     margin-top: 150px;
 }
+
 
 #button{
     background-color: #E6BFDA;
@@ -57,7 +58,7 @@ margin-left: 50px;
         display: flex;
         text-align: center;
         border:solid 1px ;
-        padding-left: 170px;
+        padding-left: 23px;
         text-decoration: none;
         background-color: plum;
         font-size: 25px;
@@ -85,7 +86,7 @@ margin-left: 50px;
     }
     
     #mentor{
-        margin-left: 170px;
+        margin-left: 100px;
         margin-top: 100px;
     }
     
