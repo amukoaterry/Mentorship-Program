@@ -78,6 +78,12 @@
  
  }
 
+ #image{
+  height: 170px;
+  width: 150px;
+  margin-bottom: 110px;
+}
+
  #sign{
   text-decoration: none;
   font-size: small;
@@ -95,11 +101,11 @@
  #button{
     background-color: #E6BFDA;
     justify-content: center;
-    margin-left: 150px;
+    margin-left:  50px;
 }
  
 #icons{
-  margin-left: 100px;
+  margin-left: 50px;
   gap: 50px;
 }
  
