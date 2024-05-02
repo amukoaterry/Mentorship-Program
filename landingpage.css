@@ -1,5 +1,6 @@
  body{
     background-color: #E6BFDA;
+    height: 500px;
  }
 
  #topnav{
@@ -20,7 +21,7 @@
  }
 #together{
   font-size: 120px;
-  margin-top: 70px;
+  margin-top: 20px;
 }
  #sign{
   text-decoration: none;
@@ -29,7 +30,8 @@
 
  #display{
   display: flex;
-  gap: 200px;
+  gap: 150px;
+  margin-left: 150px;
  }
 
 #img{
@@ -38,7 +40,7 @@
 #image{
   height: 500px;
   width: 600px;
-  margin-bottom: 220px;
+  margin-bottom: 20px;
 }
  #button{
     background-color: #E6BFDA;
@@ -47,8 +49,7 @@
 }
  
 #icons{
-  margin-left: 100px;
-  gap: 150px;
+  margin-top: 50px;
 }
 
 
@@ -58,7 +59,7 @@
     background-color: #E6BFDA;
  }
 #together{
-  font-size: small;
+  font-size: large;
 }
  #topnav{
    flex-wrap: wrap;
@@ -71,6 +72,7 @@
  }
  #display{
   font-size: small;
+  margin-right: 50px;
  }
  #note{
    font-style: small;
@@ -79,9 +81,12 @@
  }
 
  #image{
-  height: 170px;
-  width: 150px;
-  margin-bottom: 110px;
+  height: 140px;
+  width: 180px;
+
+  /* margin-bottom: 110px; */
+  /* margin-left: 10px; */
+  
 }
 
  #sign{
@@ -105,7 +110,6 @@
 }
  
 #icons{
-  margin-left: 50px;
   gap: 50px;
 }
  

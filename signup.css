@@ -29,24 +29,72 @@
     margin-left: 70px;
 }
 
-
-@media only screen and (max-width: 768px){
+/* iphone SE */
+@media screen and (min-width:280px) and (max-width:480px){
     #container{
         padding-left: 15px;
         margin: 0px;
         line-height: 30px;
         border-radius: 5px;
-        height: 600px;
-        width: 220px;
+        height: 640px;
+        width:97%;
+        font-size: large;
     }
     .input{
         border: double 1px blue;
         height: 40px;
         border-radius: 6px;
-        width: 200px;
+        width: 300px;
+        font-size: large;
+        margin-top: 20px;
     }
     .option{
         margin: 30px;
+    }
+    #image{
+   
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+    .button{
+    
+        border-radius: 7px;
+        width: 100px;
+       margin-left: 60px;
+    }
+    .option{
+        margin-left: 1px;
+        word-wrap: normal;
+    }
+    #image{
+   
+        padding-left: 6px;
+        margin-left: 1px;
+    }
+}
+
+/* IPHONE XR */
+
+@media screen and (min-width:481px) and (max-width:680px){
+    #container{
+        padding-left: 15px;
+        margin: 0px;
+        line-height: 30px;
+        border-radius: 5px;
+        height: 100%;
+        width:100%;
+        font-size: x-large;
+    }
+    .input{
+        border: double 1px blue;
+        height: 40px;
+        border-radius: 6px;
+        width: 300px;
+        font-size: x-large;
+    }
+    .option{
+        margin: 30px;
+        font-size: x-large;
     }
     #image{
    

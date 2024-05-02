@@ -6,7 +6,6 @@ body{
     gap: 100px;
     display: flex;
     text-align: center;
-    border:solid 1px ;
     padding-left: 420px;
     height: 80px;
     text-decoration: none;
@@ -39,68 +38,137 @@ margin-left: 300px;
 }
 
 
-#button{
+
+.buttn{
     background-color: #E6BFDA;
     justify-content: center;
-    margin-left: 80px;
+    margin-left: 830px;
+    width: 100px;
     height: 50px;
-    width: 80px;
+    border-radius: 5px;
+    border: solid 1px;
+    color: purple;
+    margin-top: 100px;
 }
 
 
-@media only screen and (max-width: 768px){
+@media screen and (min-width:280px) and (max-width:480px){
     body{
         background-color: #E6BFDA;
+        width: 95%;
+        height: 50px;
+
     }
     
     #info{
-         gap: 0px; 
-        display: flex;
-        text-align: center;
-        border:solid 1px ;
-        padding-left: 23px;
-        text-decoration: none;
-        background-color: plum;
-        font-size: 25px;
-        flex-direction: column;
-    }
 
+        gap: 10%;
+        width: 100%;
+        display: block;
+        padding-left: 0px;
+        height: 50px;
+        font-size:xx-small;
+        text-decoration: none;
+        background-color: plum
+    }
     a{
+        text-decoration: none;
         font-size: 20px;
     }
+    
 
     #profile{
-        font-size: 22px;
+        font-size: large;
     }
     
     #display{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 70px;
-    margin-left: 10px;
+    display: block;
+    /* gap: 100px; */
+    margin-top: 0px;
+    margin-left: 0px;
     }
     
     #name{
-        margin-top: 60px;
+        margin-top: 10px;
     }
     
     #mentor{
-        margin-left: 100px;
-        margin-top: 100px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    
+    .buttn{
+        background-color: #E6BFDA;
+        justify-content: center;
+        margin-left: 0px;
+        width:62px;
+        height: 25px;
+        border-radius: 5px;
+        border: solid 1px;
+        color: purple;
+        margin-top: 0px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:680px){
+    body{
+        background-color: #E6BFDA;
+        width: 95%;
+        height: 10px;
+
+    }
+    
+    #info{
+
+        gap: 10%;
+        width: 100%;
+        display: block;
+        padding-left: 0px;
+        height: 0px;
+        font-size:xx-small;
+        text-decoration: none;
+        background-color: plum
+    }
+    a{
+        text-decoration: none;
         font-size: 20px;
     }
     
-   #ment{
-width: 60px;
-height: 10px;
-}
-
-    #button{
+    #profile{
+        font-size: large;
+    }
+    
+    #display{
+    display: block;
+    /* gap: 100px; */
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+    
+    #name{
+        margin-top: 10px;
+    }
+    
+    #mentor{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    
+    .buttn{
         background-color: #E6BFDA;
         justify-content: center;
-        /* height: 50px; */
-        width: 30px;
+        margin-left: 0px;
+        width:62px;
+        height: 25px;
+        border-radius: 5px;
+        border: solid 1px;
+        color: purple;
+        margin-top: 0px;
     }
     
 }
